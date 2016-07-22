@@ -2,6 +2,9 @@
 from .version import __version__
 
 from .alert_policies import AlertPolicies
+from .alert_policies_legacy import AlertPoliciesLegacy
+from .alert_conditions import AlertConditions
+from .alert_entity_conditions import AlertEntityConditions
 from .applications import Applications
 from .application_hosts import ApplicationHosts
 from .application_instances import ApplicationInstances
